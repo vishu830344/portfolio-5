@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spider‑Verse | Full‑Stack Developer Portfolio</title>
+    <meta
+      name="description"
+      content="Spider‑Man themed portfolio of a full‑stack developer. Web apps, APIs, and heroic code."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas id="web-canvas" aria-hidden="true"></canvas>
+
+    <header class="nav">
+      <div class="nav__logo">
+        <span class="nav__spider-icon">🕷</span>
+        <span class="nav__text">WEB - Developer</span>
+      </div>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#languages">Languages</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav__toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero__content">
+          <p class="hero__tagline">With great power comes great <span>code</span>.</p>
+          <h1 class="hero__title">
+            Full‑Stack Developer
+            <span class="hero__name">Vishwas Pratap Singh</span>
+          </h1>
+          <p class="hero__subtitle">
+            I build web experiences as smooth as Spidey’s swing — from pixel‑perfect frontends to
+            resilient backend APIs.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Contact Me</a>
+          </div>
+          <div class="hero__meta">
+            <span>Full‑Stack · Python · Node.js · Java</span>
+            <span>Available for freelance & remote roles</span>
+          </div>
+        </div>
+        <div class="hero__visual">
+          <div class="hero__bubble" id="hero-bubble">Hi there! <br>I'm Vishwas, your friendly neighborhood developer. Let me know if you need anything!</div>
+          <img
+            src="assets\Gemini_Generated_Image_2bq0sk2bq0sk2bq0-removebg-preview.png"
+            alt="Your Name - Full‑Stack Developer"
+            class="hero__image"
+          />
+          <p class="hero__caption">Coding from the Spider‑Verse.</p>
+        </div>
+      </section>
+
+      <section id="about" class="section section--alt">
+        <div class="section__header">
+          <h2>About</h2>
+          <p>Origin story</p>
+        </div>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              I’m a full‑stack developer who loves crafting rich user experiences and performant
+              backends. Like Spider‑Man swinging between skyscrapers, I move smoothly between
+              frontend and backend, connecting interfaces, APIs, and databases.
+            </p>
+            <p>
+              My focus is building scalable, maintainable systems with clean architecture and strong
+              testing. I enjoy turning complex problems into delightful, intuitive products.
+            </p>
+          </div>
+          <div class="about__highlights">
+            <div class="about__card">
+              <h3>Web‑slinging frontend</h3>
+              <p>HTML, CSS, JavaScript, React, TypeScript, modern CSS, animations, and design systems.</p>
+            </div>
+            <div class="about__card">
+              <h3>Backend Languages</h3>
+              <p>Node.js, Python, C , Java , SQL</p>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section__header">
+          <h2>Skills</h2>
+          <p>Tech stack arsenal</p>
+        </div>
+        <div class="skills">
+          <div class="skills__group">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>Tailwind</li>
+              <li>CSS </li>
+              <li>HTML</li>
+            </ul>
+          </div>
+          <div class="skills__group">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>C</li>
+              <li>Java</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+         
+        </div>
+      </section>
+       <section id="timeline" class="section">
+        <div class="section__header">
+          <h2>My Journey</h2>
+          <p>Education, Experience & Achievements</p>
+        </div>
+        
+      
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              
+              <span class="timeline-date">2026</span>
+              <h3> Working on New Languages</h3>
+              <p>Working on new languages and frameworks.</p>
+              <ul>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>Java</li>
+                <li>Flutter</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025</span>
+              <h3>Internship at Skill Craft Technology</h3>
+              <p>Worked on modernizing legacy systems and learning real-world coding.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024</span>
+              <h3> B Tech in Computer Science</h3>
+              <p>Pursuing from Meerut Institute of Technology , Meerut.</p>
+            </div>
+          </div>
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+           <div class="timeline-content">
+              <span class="timeline-date">2023</span>
+              <h3> Gap Year</h3>
+              <p>I took a gap year to explore my interests and skills.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2022</span>
+              <h3>Passed 12th with 75%</h3>
+              <p> From Uma Devi Children's  Academy , Kheri </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="languages" class="section section--alt">
+        <div class="section__header">
+          <h2>Language Proficiency</h2>
+          <p>How well I know each language</p>
+        </div>
+        <div class="languages-meters">
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-html">HTML</label>
+              <meter id="meter-html" min="0" max="100" value="95">95%</meter>
+              <span>95%</span>
+            </div>
+          </div>
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-css">CSS</label>
+              <meter id="meter-css" min="0" max="100" value="90">90%</meter>
+              <span>90%</span>
+            </div>
+          </div>
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-js">JavaScript</label>
+              <meter id="meter-js" min="0" max="100" value="75">75%</meter>
+              <span>75%</span>
+            </div>
+          </div>
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-ts">TypeScript</label>
+              <meter id="meter-ts" min="0" max="100" value="50">50%</meter>
+              <span>50%</span>
+            </div>
+          </div>
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-python">Python</label>
+              <meter id="meter-python" min="0" max="100" value="70">70%</meter>
+              <span>70%</span>
+            </div>
+          </div>
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-C">C</label>
+              <meter id="meter-C" min="0" max="100" value="70">70%</meter>
+              <span>70%</span>
+            </div>
+          </div>
+          
+          <div class="language-meter-card">
+            <div class="language-meter">
+              <label for="meter-node">Node.js</label>
+              <meter id="meter-node" min="0" max="100" value="30">30%</meter>
+              <span>30%</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section section--alt">
+        <div class="section__header">
+          <h2>Projects</h2>
+          <p>Recent missions</p>
+        </div>
+        <div class="projects">
+          <article class="project-card">
+            <span class="project-card__label">Featured</span>
+            <h3>AnuVora - A Clothing Website</h3>
+            <p>
+              A full‑featured e-commerce platform for a clothing brand, with product browsing, cart,
+              and secure checkout.
+            </p>
+            <ul class="project-card__tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              
+            </ul>
+            <div class="project-card__links">
+              <a href="https://vishu830344.github.io/AnuVora-Clothing-Website-/" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View live demo of AnuVora Clothing Website">Live Demo</a>
+              <a href="https://github.com/vishu830344/AnuVora-Clothing-Website-" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View code for AnuVora Website">Code</a>
+            </div>
+          </article>
+
+
+          <article class="project-card">
+
+            <h3>Explore India - A tourism website</h3>
+            <p>
+              A travel and tourism website that provides information about various tourist
+              destinations in India.
+            </p>
+            <ul class="project-card__tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://stately-taffy-0d38ca.netlify.app/" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View live demo of Explore India Website">Live Demo</a>
+              <a href="https://app.netlify.com/projects/stately-taffy-0d38ca/overview" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View code for Explore India Website">Code</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <h3>Portfolio</h3>
+            <p>
+              This is my portfolio — custom design, CSS animations, and responsive layout.
+            </p>
+            <ul class="project-card__tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-card__links">
+              <a href="https://portfolio-web-dev22.netlify.app/" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View live demo of Portfolio Website">Live Demo</a>
+              <a href="https://app.netlify.com/projects/portfolio-web-dev22/deploys/6981bd7b77cccbd9b31dbbc1" class="btn btn--primary" target="_blank" rel="noopener noreferrer" aria-label="View code for Portfolio Website">Code</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certificates" class="section">
+        <div class="section__header">
+          <h2>Certificates</h2>
+          <p>Extra activities & achievements</p>
+        </div>
+
+        <div class="certificates">
+          <p class="certificates__intro">
+            A quick gallery of my certifications, workshops, and extra‑curricular achievements. Click any
+            card to preview.
+          </p>
+          <div class="cert-gallery" aria-label="Certificates gallery">
+            <a class="cert-card" href="assets\hackathon 2025 2.jpg" data-cert>
+              <img
+                src="assets\hackathon 2025 2.jpg"
+                alt="Hackathon : Hackathon Participation"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Hackathon 2025</h3>
+                <p>2025 · Hackathon Participation</p>
+              </div>
+            </a>
+            <a class="cert-card" href="assets\hackathon 2025.jpg" data-cert>
+              <img
+                src="assets\hackathon 2025.jpg"
+                alt="Hackathon : Hackathon Participation"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Hackathon 2025</h3>
+                <p>2025 · Hackathon Participation</p>
+              </div>
+            </a>
+            <a class="cert-card" href="assets/offer letter.jpg" data-cert>
+              <img
+                src="assets/offer letter.jpg"
+                alt="Offer Letter: Skill Craft Technology"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Offer Letter</h3>
+                <p>2025 · Skill Craft Technology</p>
+              </div>
+            </a>
+
+            <a class="cert-card" href="assets/web.jpg" data-cert>
+              <img
+                src="assets/web.jpg"
+                alt="Certificate: Web Development"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Web Development</h3>
+                <p>2025 · Certification</p>
+              </div>
+            </a>
+
+            <a class="cert-card" href="assets/hackathon 2024.png" data-cert>
+              <img
+                src="assets/hackathon 2024.png"
+                alt="Certificate: Hackathon Participation"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Hackathon Participation</h3>
+                <p>2024 · Event</p>
+              </div>
+            </a>
+
+            <a class="cert-card" href="assets/industrial training python.jpg" data-cert>
+              <img
+                src="assets/industrial training python.jpg"
+                alt="Certificate: Industrial Training Python"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="cert-card__meta">
+                <h3>Industrial Training Python</h3>
+                <p>2024 · Experience</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+     
+      <section id="contact" class="section">
+        <div class="section__header">
+          <h2>Contact</h2>
+          <p>Send a signal</p>
+        </div>
+        <div class="contact">
+          <div class="contact__info">
+            <p>
+              Whether you’re looking for a full‑time teammate or a freelance hero for your next
+              mission, I’d love to hear from you.
+            </p>
+            <ul>
+              <li><span>Email:</span> <a href="mailto:vishwaspratapsingh90@gmail.com" target="_blank" rel="noreferrer">vishwaspratapsingh90@gmail.com</a></li>
+              <li><span>GitHub:</span> <a href="https://github.com/vishu830344" target="_blank" rel="noreferrer">github.com/vishu830344</a></li>
+              <li><span>LinkedIn:</span> <a href="https://www.linkedin.com/in/vishu830344" target="_blank" rel="noreferrer">linkedin.com/in/vishu830344</a></li>
+            </ul>
+          </div>
+          <form id="contact-form" class="contact__form" aria-label="Contact form">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Peter Parker" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="you@dailybugle.com"
+                required
+              />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                placeholder="Tell me about your mission..."
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send Message</button>
+            <div id="contact-status" class="contact__status" aria-live="polite"></div>
+            <p class="contact__note">
+              This form uses EmailJS to send your message directly to my inbox.
+            </p>
+          </form>
+        </div>
+      </section>
+      
+    </main> 
+    <footer class="footer">
+
+      <p>© <span id="year"></span> Your Name. All rights reserved.</p>
+      <p class="footer__secondary">Friendly neighborhood full‑stack developer.</p>
+    </footer>
+
+    <!-- Live demo preview (hidden, for iframe) -->
+    <div id="live-preview" class="live-preview" aria-hidden="true" tabindex="-1"></div>
+
+    <!-- Certificate lightbox -->
+    <div id="cert-lightbox" class="lightbox" aria-hidden="true">
+      <div class="lightbox__backdrop" data-cert-close></div>
+      <div class="lightbox__panel" role="dialog" aria-modal="true" aria-label="Certificate preview">
+        <button class="lightbox__close" type="button" aria-label="Close preview" data-cert-close>
+          ✕
+        </button>
+        <img id="cert-lightbox-img" alt="Certificate preview" />
+        <div class="lightbox__caption" id="cert-lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- EmailJS SDK (browser) -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/index.min.js"></script>
+    <script>
+      (function() {
+        if (window.emailjs) {
+          emailjs.init('IkhPUfYgUJ7KX1ntC');
+        }
+      })();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
